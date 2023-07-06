@@ -62,7 +62,8 @@ try:
 	with open("hasil_cp.txt", "w") as tul:
 		tul.write("")
 	for dev in set(has_cp):
-		with open("hasil_cp.txt", "a") as tu:
+		with open("hasil_ok
+  .txt", "a") as tu:
 			tu.write(dev)
 except:
 	pass
@@ -902,12 +903,18 @@ def pilihan(pil):
 # Mau Ngapain Cuk?
 baner = """
 .__  """+h+"""+{ I G E H }+"""+a+""" __
-
-─▄████▄████▄
-██▒▒▒▒█▒▒▒▒██
-▀██▒ ▒▒▒▒▒██▀
-─▀██▒▒▒▒▒██▀
-───▀██▒██▀
+
+
+─▄████▄████▄
+
+██▒▒▒▒█▒▒▒▒██
+
+▀██▒ ▒▒▒▒▒██▀
+
+─▀██▒▒▒▒▒██▀
+
+───▀██▒██▀
+
 ─────▀█▀
 """
 versi = k+" >_"+h+" Versi_:"+p+" 0.5\n"
